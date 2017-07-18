@@ -10,9 +10,7 @@ function [accuracy, runtime] =  Hajek(n,p,q)
 %   Output parameters:
 %      accuracy
 %      runtime 
-%  [accuracy, imbalance, run_time, flipped, fuLNP, W] = LNP(X,labeled_indices, labels, alpha,graphoptions) 
-%
-
+% Copyright (C) 2017 Charalampos E. Tsourakakis 
 
 %% generate planted partition graph 
 
