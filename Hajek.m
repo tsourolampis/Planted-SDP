@@ -41,7 +41,6 @@ Abar = triu(Abar,1);
 Abar= Abar+Abar'; 
 
 %% solve the SDP proposed by Hajek et al. 
-tic
 cvx_begin sdp 
 variable Y(N,N) symmetric; 
 dual variable a;
